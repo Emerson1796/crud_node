@@ -1,5 +1,5 @@
 # crud_node
-Criação de um CRUD básico apenas para demonstração
+Creating a basic CRUD for demonstration only
 
 ## This project is for recreational purposes only
 
