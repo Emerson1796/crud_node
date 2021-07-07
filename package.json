@@ -1,0 +1,23 @@
+{
+  "name": "user_registration",
+  "version": "1.0.0",
+  "description": "Criação de um CRUD básico apenas para demonstração",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js",
+    "pm2": "pm2 start src/app.js --name api_new_report --exp-backoff-restart-delay=5000"
+  },
+  "keywords": [],
+  "author": "Emerson Gomes",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-status": "^1.5.0",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.7",
+    "sequelize": "^6.6.2"
+  }
+}
