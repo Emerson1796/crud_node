@@ -1,4 +1,4 @@
-# crud_node
+# Crud Node
 Creating a basic CRUD for demonstration only
 
 ## This project is for recreational purposes only
